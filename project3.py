@@ -101,4 +101,3 @@ else:
             vol_lots = int(row['Volume_Size'] / 1000)
             print(f"代號: {row['stock_id']} ({row['stock_name']}) | 收盤價: {row['Close_Price']:.2f} | 成交量: {vol_lots} 張 | AI信心度: {row['AI_Prob']:.2%}")
 
-#同步

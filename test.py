@@ -8,4 +8,3 @@ tsmc_check = df[(df['stock_id'] == 2330) & (df['Date'] == '2026-11-03')]
 
 print(tsmc_check[['Date', 'stock_name', 'Close_Price', 'Volume_Size']])
 
-#同步

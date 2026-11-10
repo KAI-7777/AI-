@@ -113,4 +113,3 @@ if stock_list:
         output_filename = "all_tech_stocks_data.csv"
         final_table.to_csv(output_filename, index=False, encoding="utf-8-sig")
         print(f"💾 大數據表格已成功儲存為 '{output_filename}'！")
-#同步
