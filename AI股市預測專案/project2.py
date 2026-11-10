@@ -156,3 +156,4 @@ print(f"✅ 扣稅費後單筆正報酬勝率：{(daily_top3['Net_Return'] > 0).
 print(f"💵 扣稅費後平均每筆淨報酬：{daily_top3['Net_Return'].mean():+.2%}")
 print(f"📈 期間資金輪動累積總報酬率：{cumulative_return.iloc[-1]:+.2%}")
 
+#測試
